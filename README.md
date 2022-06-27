@@ -1,0 +1,2 @@
+# Multimodal_biometric_verification_dev
+Development notebook of multimodal biometric system. Its goal is to verify and allow access to users based on their face picture, signature registration and wrist movement registration. Notebook contains tests of different feature extraction approaches (using both traditionally extracted features and pretrained CNN architectures from tensorflow), dimensionality reduction using both PCA transformation and polynomial approximation supported by gradient descent procedure, tests of different classifiers (KNN, SVM, Naive Bayes). 
