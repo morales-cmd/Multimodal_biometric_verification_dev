@@ -28,11 +28,12 @@ Three classifiers have been tested:
 1. SVM
 2. Naive Bayes
 3. KNN
+
 The classifiers were tuned manually by manipulating their hyperparameters (SVM - gamma, c; Naive Bayes - None; KNN - K parameter) and the best sets of parameters were imported to generate final results. The classifier with the best final f1-score (SVM) was assigned to further development.
 ## Dimensionality reduction with polynomial approximation
 An approach for further dimensionality reduction was tested. The procedure was based on lagrange polynomial approximation of a vector followed by a gradient descent procedure to find polynomial's global minimums. Found minimums coordinates replaced originally extracted features.
 ## Conclusions
-- Aquired dataset was small, but results achieved on it were promising. There is a good chance that adding more users to the system shouldn't significantly decrease it's performance, as long as additional samples for each user are provided.
+- Aquired dataset was small but results achieved on it were promising. There is a good chance that adding more users to the system shouldn't significantly decrease it's performance as long as additional samples for each user are provided.
 - Spectral features of wrist movement signal do not provide useful information about user (at least for signals with low sampling rate like in this case). On the other hand, simpler features like RMS or ZCR do the trick, despite not giving detailed information about the signal.
 -  
 
