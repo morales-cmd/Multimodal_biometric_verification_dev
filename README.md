@@ -35,6 +35,5 @@ An approach for further dimensionality reduction was tested. The procedure was b
 ## Conclusions
 - Aquired dataset was small but results achieved on it were promising. There is a good chance that adding more users to the system shouldn't significantly decrease it's performance as long as additional samples for each user are provided.
 - Spectral features of wrist movement signal do not provide useful information about user (at least for signals with low sampling rate like in this case). On the other hand, simpler features like RMS or ZCR do the trick, despite not giving detailed information about the signal.
--  
 
 
